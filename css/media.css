@@ -1,0 +1,40 @@
+@media(min-width:576px){
+    .container{
+        width: 540px;
+    }
+}
+
+/* 2. md */
+
+@media(min-width:768px){
+    .container{
+        width: 720px;
+    }
+}
+
+/* 3. lg */
+
+@media(min-width:992px){
+    .container{
+        width: 960px;
+    }
+    .text-center-lg-6{
+        text-align: center;
+    }
+}
+
+/* 4. xl */
+
+@media(min-width:1200px){
+    .container{
+        width: 1140px;
+    }
+}
+
+/* 5. xxl */
+
+@media(min-width:1400px){
+    .container{
+        width: 1320px;
+    }
+}

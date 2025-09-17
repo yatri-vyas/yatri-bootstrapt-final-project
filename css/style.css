@@ -1,0 +1,23 @@
+.team .team-icon li {
+    width: 30px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.team .team-icon li:hover a i {
+    animation: icon 0.3s linear;
+}
+
+@keyframes icon {
+    0% {
+        rotate: 0deg;
+    }
+
+    100% {
+        rotate: 360deg;
+    }
+}
+
+.team .team-icon li:hover {
+    width: 120px;
+}
